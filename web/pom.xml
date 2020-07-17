@@ -74,6 +74,10 @@
             </dependencies>
         </profile>
         <profile>
+         <properties>
+          <maven.compiler.source>1.6</maven.compiler.source>
+          <maven.compiler.target>1.6</maven.compiler.target>
+          </properties>
             <!-- Active adding -Djsf=ri when execute maven goals. -->
             <id>jsf-ri</id>
             <activation>
