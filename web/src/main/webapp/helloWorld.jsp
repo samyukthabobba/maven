@@ -28,7 +28,7 @@
             <h:form id="mainForm">
               <h:panelGrid columns="2">
                 <h:outputLabel for="name" value="Please enter your name" />
-                <h:inputText id="name" value="#{hi guys}" required="true"/>
+                <h:inputText id="name" value="#{}" required="true"/>
                 <h:commandButton value="Press me" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
               </h:panelGrid>
